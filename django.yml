@@ -1,0 +1,7 @@
+version: "2"
+services:
+  backend:
+    image: haos616/django-realworld-example-app:latest
+    build: ./backends/django
+    ports:
+      - '127.0.0.1:8000:8000'

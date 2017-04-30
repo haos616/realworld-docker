@@ -1,0 +1,7 @@
+version: "2"
+services:
+  frontend:
+    image: haos616/react-redux-realworld-example-app:latest
+    build: ./frontends/react-redux
+    ports:
+      - '127.0.0.1:80:3000'

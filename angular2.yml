@@ -1,0 +1,7 @@
+version: "2"
+services:
+  frontend:
+    image: haos616/angular2-realworld-example-app:latest
+    build: ./frontends/angular2
+    ports:
+      - '127.0.0.1:80:4200'
